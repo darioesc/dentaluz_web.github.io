@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<!--
+Template Design and coding by Responsee Team
+
+Adaptado por Wesley Silva
+para utilização nas disciplinas de UX e FrontEnd 
+da Pós Graduação em Desenvolvimento Web
+do Departamento de Computação da Ufscar.
+
+Objetivo : Site util para fins comerciais baseado em acessibilidade e responsividade
+-->
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dentaluz Versión Web</title>
+    <link rel="icon" href="D2.ico">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="css/lightcase.css">
+
+    <!-- Custom styles-path -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Jquery Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Font Awesome kit script -->
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+
+    <!-- CUSTOM STYLE -->      
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900&amp;subset=latin-ext" rel="stylesheet"> 
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>   
+  </head>
+
+  <body class="size-1280">
+
+    <!-------------------------- LINKS FLUTUANTES -->
+    <!--a target="_blank" class="hide-s" href="index.html" style="position:fixed;top:120px;right:-14px;z-index:10;"><img src="img/premium-features.png" alt=""></a>
+    -->
+
+    <!-- HEADER -->
+    <header role="banner" class="position-absolute">    
+      <!-- Top Navigation -->
+      <nav class="background-transparent background-primary-dott full-width sticky">          
+        <div class="top-nav"> 
+          <!-- mobile version logo -->              
+          <div class="logo hide-l hide-xl hide-xxl">
+            <a href="index.html" class="logo">
+              <!-- Logo White Version -->
+              <img class="logo-white" src="img/imgOdonto/logoSemFundo.png" alt="Logo do menu inicial">
+              <!-- Logo Dark Version -->
+              <img class="logo-dark" src="img/imgOdonto/logoFundoBranco.png" alt="Logo de rolagem">
+            </a>
+          </div>                  
+          <p class="nav-text"></p>
+        
+
+          <!--WhatsApp-->
+          <style>
+            .whatsapp {
+                position: fixed;
+                top: 82%;
+                left: 1%;
+                padding: 10px;
+                z-index: 10000000;
+            }
+            </style>
+            <div>
+                <a href="https://wa.me/5493624522550?text=Soy%20un%20contacto%20que%20vengo%20vía%20sitio%20Web"
+                   target="_blank">
+                   <img  class="whatsapp" src="https://images.tcdn.com.br/static_inst/integracao/imagens/whatsapp.png" alt="Envie mensagens vía Whatsapp" />
+                </a>
+            </div>
+
+ <!--Messenger Facebook-->
+
+
+            <!-------------------------- MENUS -->
+          <!-- left menu items -->
+          <div class="top-nav left-menu">
+            <ul class="right top-ul chevron">
+               <li><a href="ficha.html">Ficha Periodontal</a></li>
+               <li><a href="odon.html">Odontograma</a></li>
+            </ul>
+         </div>
+         
+         <!-- logo no meio do Menu DESKTOP-->
+         <ul class="logo-menu">
+          <a href="index.html" class="logo">
+            <!-- Logo White Version -->
+            <img class="logo-white" src="img/imgOdonto/logoSemFundo.png" alt="Logo do menu inicial">
+            <!-- Logo Dark Version -->
+            <img class="logo-dark" src="img/imgOdonto/logoFundoBranco.png" alt="Logo de rolagem">
+       </a>
+         </ul>
+         
+         <!-- right menu items -->
+         <div class="top-nav right-menu">
+            <ul class="top-ul chevron">
+               <li><a href="gallery.html">Usuario</a></li>
+               <li><a href="contact.html">Contacto</a></li>
+            </ul> 
+         </div>
+       </div>
+     </nav>
+   </header>
+   
+    <!-------------------------------------------------------------------- MAIN -->
+        <main role="main">
+      <article>    
+        <!-- Header Imagem do fundo -->
+        <header class="section background-image text-center" style="background-image:url(img/imgOdonto/fundoSite.jpg)">
+            <h1 class="animated-element slow text-extra-thin text-white text-s-size-30 text-m-size-40 text-size-50 text-line-height-1 margin-bottom-30 margin-top-130">
+            Registro de Usuario.
+          </h1>
+          <p class="animated-element text-white">Recibirá un E-mail de Validación de Cuenta.</p>
+          
+          <!-- white full width arrow object -->
+          <img class="arrow-object" src="img/arrow-object-white.svg" alt="">
+        </header>
+      </article>
+      
+      <!-- Section 2 -->
+     <img class="wave" src="img/wave.svg">
+    <div class="container">
+        <div class="img">
+            <img src="img/a475f-tv69q.svg">
+        </div>
+        <div class="login-container">
+            <form action="index.html">
+                <h2>Registrarse</h2>    
+                
+                
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div>
+                        <h5>Usuario</h5>
+                        <input id="txtNNombre" class="input" type="text" name="name" >
+                    </div>
+                </div>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="far fa-user"></i>
+                    </div>
+                    <div>
+                        <h5>Nombre y Apellido</h5>
+                        <input id="txtNApellido" class="input" type="text" name="name" >
+                    </div>
+                </div>
+                <div class="input-div two">
+                    <div class="i">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h5>E-mail</h5>
+                        <input id="txtNCorreo" class="input" type="email" name="email">
+                    </div>
+                </div>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <div>
+                        <h5>Contraseña</h5>
+                        <input id="txtNContrasena" class="input" type="password" name="pwd">
+                    </div>
+                </div>
+                <div class="input-div two">
+                    <div class="i">
+                        <i class="fas fa-calendar-week"></i>
+                    </div>
+                    <div>
+                        <h5>DNI. Nº</h5>
+                        <input id="txtNFecha" class="input" type="" name="email">
+                    </div>
+                </div>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <div>
+                        <h5>Especialidad</h5>
+                        <input id="txtNRol" class="input" type="number" name="rol">
+                    </div>
+                </div>
+                <div class="input-div two">
+                    <div class="i">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+                    <div>
+                        <h5>Mat. Prof.</h5>
+                        <input id="txtNCedula" class="input" type="email" name="email">
+                    </div>
+                </div>
+                
+                <div class="terms">
+                    <input type="checkbox">
+                    <label>Acepto los </label><a id="action-modal">Terminos de uso.</a>
+                </div>
+                <div class="btn-container">
+                    <button class="btn btn-default" type="button" id="btnRegistro">Registrar</button>
+                </div>
+                <div class="account">
+                    <p>¿Ya tienes una cuenta?</p>
+                    <a href="index.html">Volver</a>
+                </div>
+                <!-- The Modal -->
+                <div id="modal-terms" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Términos y servicios</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Iaculis at erat pellentesque adipiscing commodo. Adipiscing
+                            at in tellus integer feugiat scelerisque. Duis at consectetur lorem donec massa. Lacus vel
+                            facilisis volutpat est velit. Faucibus turpis in eu mi bibendum. Natoque penatibus et magnis
+                            dis parturient. Potenti nullam ac tortor vitae purus. Odio euismod lacinia at quis risus sed
+                            vulputate odio. Pulvinar mattis nunc sed blandit libero volutpat sed. Dolor sit amet
+                            consectetur adipiscing elit ut aliquam purus. Nulla facilisi etiam dignissim diam quis.
+                            Massa ultricies mi quis hendrerit dolor magna eget. Tincidunt praesent semper feugiat nibh
+                            sed pulvinar proin gravida. At auctor urna nunc id cursus metus aliquam eleifend. Amet nisl
+                            purus in mollis nunc. Ultricies mi quis hendrerit dolor magna eget est lorem. Mi proin sed
+                            libero enim. Viverra accumsan in nisl nisi. Cras ornare arcu dui vivamus arcu felis bibendum
+                            ut tristique.</p>
+                
+                      
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>    
+
+      <!-- Section 4
+      <section class="section-small-padding background-white text-center">
+        <div class="line">
+          <div class="s-12 m-12 l-9 center margin-bottom-30">
+            <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-10">Prompta reform conceptam</h3>
+            <p>Deleniti pertinacia eu est, te his soluta quaestio pericula illum facilisis.</p>
+          </div>
+        </div>            
+        <div class="line">  
+          <div class="s-12 m-12 l-3 center">
+            <a href="contact.html" class="s-12 button border-radius background-primary text-size-20 text-white">Contact Us</a>
+          </div>
+        </div>
+      </section>    
+       -->    
+    </main>
+    
+    <!-------------------------------------------------------------------- FOOTER -->
+    <footer>
+      <!--------------------------------- Social -->
+       <div class="background-primary padding text-center">
+        <a href="https://www.facebook.com/"><i class="icon-facebook_circle text-size-25 text-dark"></i></a> 
+<!--        <a href="/"><i class="icon-twitter_circle text-size-25 text-dark"></i></a>
+        <a href="/"><i class="icon-google_plus_circle text-size-25 text-dark"></i></a>-->
+        <a href="https://www.instagram.com/"><i class="icon-instagram_circle text-size-25 text-dark"></i></a> 
+<!--        <a href="/"><i class="icon-linked_in_circle text-size-25 text-dark"></i></a>           -->                                                            
+      </div>
+      <!--------------------------------- Main Footer -->
+      <section class="section background-dark">
+        <div class="line"> 
+          <div class="margin2x">
+            <div class="s-12 m-6 l-3 xl-5">
+               <h4 class="text-primary text-strong">Nuestro Objetivo</h4>
+               <p>
+                 <b class="text-size-20">Servicio enfocado en desarrollar soluciones y proyectos para sus clientes,</b> precios y condiciones comerciales a medida. <b class="text-size-20"></b>
+               </p>
+              </div>
+<!--
+
+            -->
+          <div class="s-12 m-6 l-3 xl-3">
+               <h4 class="text-primary text-strong margin-m-top-30">Contacto</h4>
+                 <a href="https://wa.me/5516991400423?text=Sou%20um%20contato%20que%20veio%20via%20site" target="_blank"><i class="icon-sli-screen-smartphone text-primary"></i> +54 9 (362) 460-4929</a><br>
+                <p><i class="icon-sli-screen-smartphone text-primary"></i> +54 9 (362) 452-2550</p><br>
+                <p><i class="icon-sli-screen-smartphone text-primary"></i> +54 9 (362) 495-9000</p>
+                <a class="text-primary-hover" href="mailto:desarrollos.mdp@gmail.com"><i class="icon-sli-mouse text-primary"></i> Dentaluz.MDP-Desarrollos</a><br>
+            </div>
+          </div>  
+        </div>    
+      </section>
+      <div class="background-dark">
+         <div class="line">
+            <hr class="break margin-top-bottom-0" style="border-color: #777;">
+         </div>
+      </div>
+      <!--------------------------------- Bottom Footer -->
+      <section class="padding-2x background-dark full-width">
+        <div class="line">
+          <div class="s-12 l-6">
+            <p class="text-size-12">Copyright 2022, Marcos DR  Dario ME Pablo EG - MDP-Desarrollos</p>
+            <p class="text-size-12">...</p>
+          </div>
+          <div class="s-12 l-6">
+            <a class="right text-size-12 text-primary-hover" href="https://www.youtube.com/embed/kwF-6-Fi29Y" title="Responsee - lightweight responsive framework">Design and coding<br> by MDP-Desarrollos</a>
+          </div>
+        </div>  
+      </section>
+    </footer>
+    <script src="js/login.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+
+    <script type="text/javascript" src="js/responsee.js"></script>
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/template-scripts.js"></script> 
+  </body>
+</html>

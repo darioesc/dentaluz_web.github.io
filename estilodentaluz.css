@@ -1,0 +1,106 @@
+ * { 
+  
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+   }
+
+  
+
+   #teste {
+    
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0 auto;
+    padding:10px;
+    width:100%;
+    max-width: 880px;
+    height:440px;
+    border:1px solid #000;    
+      
+}
+
+#firm {
+    
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0 auto;
+    padding:10px;
+    width:100%;
+    max-width: 880px;
+    height:440px;
+    border:1px solid #000;    
+      
+}
+
+
+   table { 
+    flex-wrap: wrap;
+    overflow-x: auto;
+    width: 50%;
+    margin: auto;
+   padding:30px;
+   }
+
+   tr
+{
+  background-color:lightblue;
+}
+
+
+    form { 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: 100%;
+   max-width: 1000px;
+   margin-right: auto;
+   margin-left: auto;
+   padding: 0 1rem;
+   padding-top: 40px;
+   }
+
+   .field { 
+   display: flex;
+   flex-direction: column;
+   width: 20rem;
+   margin: 0.5rem 0;
+   }
+
+   .field label { 
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem; 
+   }
+
+   .field input  { 
+   font-size: 1.1rem;
+   height: 2.2rem;
+   padding-left: 0.5rem;
+   border: 2px solid #696969;
+   border-radius: 5px;
+   }
+
+    .field select  { 
+   font-size: 1.1rem;
+   width: 12rem;
+   height: 2.6rem;
+   padding-left: 0.5rem;
+   border: 2px solid #696969;
+   border-radius: 5px;
+   }
+
+
+
+
+   
+   /*.form-group{ 
+     background-color: lightblue;
+  
+   }
+    
+   */
+
+
+
+   }

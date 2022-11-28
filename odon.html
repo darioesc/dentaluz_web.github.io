@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<!--
+Template Design and coding by MDP-Desarrollos
+
+para utilização nas disciplinas de UX e FrontEnd 
+da Pós Graduação em Desenvolvimento Web.
+
+Objetivo : Site util para fins comerciais baseado em acessibilidade e responsividade
+-->
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dentaluz Versión Web</title>
+    <link rel="icon" href="D2.ico">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="css/lightcase.css">
+    <!-- CUSTOM STYLE -->      
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900&amp;subset=latin-ext" rel="stylesheet"> 
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script> 
+    <!-- Para el odontograma -->
+    <link rel="stylesheet" type="text/css" href="estilodentaluz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <script src="scripts/jquery-2.1.4.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilosOdontograma.css">  
+
+  </head>
+
+  <body class="size-1280">
+
+    <!-------------------------- LINKS FLUTUANTES -->
+    <!--a target="_blank" class="hide-s" href="index.html" style="position:fixed;top:120px;right:-14px;z-index:10;"><img src="img/premium-features.png" alt=""></a>
+    -->
+
+    <!-- HEADER -->
+    <header role="banner" class="position-absolute">    
+      <!-- Top Navigation -->
+      <nav class="background-transparent background-primary-dott full-width sticky">          
+        <div class="top-nav"> 
+          <!-- mobile version logo -->              
+          <div class="logo hide-l hide-xl hide-xxl">
+            <a href="index.html" class="logo">
+              <!-- Logo White Version -->
+              <img class="logo-white" src="img/imgOdonto/logoSemFundo.png" alt="Logo do menu inicial">
+              <!-- Logo Dark Version -->
+              <img class="logo-dark" src="img/imgOdonto/logoFundoBranco.png" alt="Logo de rolagem">
+            </a>
+          </div>                  
+          <p class="nav-text"></p>
+        
+
+          <!--WhatsApp-->
+          <style>
+            .whatsapp {
+                position: fixed;
+                top: 82%;
+                left: 1%;
+                padding: 10px;
+                z-index: 10000000;
+            }
+            </style>
+            <div>
+                <a href="https://wa.me/5493624522550?text=Soy%20un%20contacto%20que%20vengo%20vía%20sitio%20Web"
+                   target="_blank">
+                   <img  class="whatsapp" src="https://images.tcdn.com.br/static_inst/integracao/imagens/whatsapp.png" alt="Envie mensagens vía Whatsapp" />
+                </a>
+            </div>
+
+ <!--Messenger Facebook-->
+
+
+            <!-------------------------- MENUS -->
+          <!-- left menu items -->
+          <div class="top-nav left-menu">
+            <ul class="right top-ul chevron">
+               <li><a href="ficha.html">Ficha Periodontal</a></li>
+               <li><a href="odon.html">Odontograma</a></li>
+            </ul>
+         </div>
+         
+         <!-- logo no meio do Menu DESKTOP-->
+         <ul class="logo-menu">
+          <a href="index.html" class="logo">
+            <!-- Logo White Version -->
+            <img class="logo-white" src="img/imgOdonto/logoSemFundo.png" alt="Logo do menu inicial">
+            <!-- Logo Dark Version -->
+            <img class="logo-dark" src="img/imgOdonto/logoFundoBranco.png" alt="Logo de rolagem">
+         </a>
+         </ul>
+         
+         <!-- right menu items -->
+         <div class="top-nav right-menu">
+            <ul class="top-ul chevron">
+               <li><a href="gallery.html">Usuario</a></li>
+               <li><a href="contact.html">Contacto</a></li>
+            </ul> 
+         </div>
+       </div>
+     </nav>
+   </header>
+   
+
+<!-------------------------------------------------------------------- MAIN -->
+<main role="main">
+      <article>    
+        <!-- Header Imagem do fundo -->
+        <header class="section background-image text-center" style="background-image:url(img/imgOdonto/fundoSite.jpg)">
+          <h1 class="animated-element slow text-extra-thin text-white text-s-size-30 text-m-size-40 text-size-50 text-line-height-1 margin-bottom-30 margin-top-130">
+            Odontograma de Trabajo.
+          </h1>
+          <p class="animated-element text-white">Desarrollos a la medida.</p>
+          
+          <!-- white full width arrow object -->
+          <img class="arrow-object" src="img/arrow-object-white.svg" alt="">
+        </header>
+        
+        <!-- Section 1 -->
+        <section class="section-small-padding background-white text-center">      
+          <div class="line">
+            
+            <h2 class="text-dark text-size-50 text-m-size-40"> <b class="text-primary">COLEGIO DE ODONTOLOGOS</b></h2>
+            
+         <p>San Martín 125- H3500CIB - Resistencia Chaco Tel. (0362) 4422337</p>
+        
+
+    <form>
+        <div class="field">
+           <label>MES</label>
+           <input type="month" name="mes">
+           </div>
+           <div class="field">
+               <label>OBRA SOCIAL</label>
+           <select class="custom-select" id="tdei" name="tdei" style="width:100%;">
+                                    <option selected disabled>Seleccione una Obra Social</option>
+                                    <option value="CC">CAMIONEROS</option>
+                                    <option value="TI">INSSEP</option>
+                                    <option value="RC">GASTRONOMICOS</option>
+                                    <option value="PA">OSDE</option>
+                                </select>
+                                <a href="https://consultas.insssep.gob.ar/Afiliados/" target="_BLANC">Verificar Afiliado INSSEP</a>
+           </div>
+           <div class="field">
+            <label>Nº de CREDENCIAL</label>
+            <input type="text" name="credencial" required placeholder="Nº de Credencial del Afilidado" autocomplete>
+           </div>
+           <div class="field">
+            <label>Titular</label>
+            <input type="text" name="titular" autocomplete>
+           </div>
+            <div class="field">
+            <label>Lugar de Trabajo</label>
+            <input type="text" name="trabajo" autocomplete>
+           </div>
+            <div class="field">
+            <label>DNI</label>
+            <input type="number" name="tdni">
+           </div>
+           <div class="field">
+            <label>Paciente</label>
+            <input type="text" name="paciente" autocomplete>
+           </div>
+           <div class="field">
+            <label>DNI Nº</label>
+            <input type="number" name="pdni">
+           </div>
+           <div class="field">
+            <label>Parentesco</label>
+            <input type="text" name="pariente" autocomplete>
+           </div>
+           <div class="field">
+            <label>Domicilio</label>
+            <input type="text" name="casa" autocomplete>
+           </div>
+           <div class="field">
+            <label>Fecha de Nacimiento</label>
+            <input type="date" name="fecnac">
+           </div>
+            <div class="field">
+            <label>Teléfono</label>
+            <input type="number" name="cel">
+           </div>
+           <div class="field">
+            <label>Localidad</label>
+            <input type="text" name="lugar" autocomplete>
+           </div>                    
+    </form>
+          </div>                                                                                                    
+        </section>
+          
+<hr>
+                                                        
+  
+<table align =" center ">
+    <tr>
+        <th>Amalgama</th> 
+        <th>Caries</th>
+        <th>Protesis</th>
+        <th>Ausente</th>
+        <th>Resina</th>
+        <th>CoronaR</th>
+        <th>Sellante</th>
+        <th>CoronaA</th>
+        <th>Normal</th>
+    </tr>
+        <td><center><div class="color" value="1" style="background-color:orange;width:20px;height:20px"></div></center></td>
+        <td><center><div class="color" value="2" style="background-color:yellow;width:20px;height:20px"></div></center></td>
+        <td><center><div class="color" value="3" style="background-color:red;width:20px;height:20px"></div></center></td>
+        <td><center><div class="color" value="4" style="background-color:black;width:20px;height:20px"></div></center></td>
+        <td><center><div class="color" value="5" style="background-color:#CC6600;width:20px;height:20px"></div></center></td>
+        <td><center><div class="color" value="6" style="background-color:red;width:20px;height:20px"></div></center></td>
+        <td><center><div class="color" value="7" style="background-color:green;width:20px;height:20px"></div></center></td>
+        <td><center><div class="color" value="8" style="background-color:blue;width:20px;height:20px"></div></center></td>
+        <td><center><div class="color" value="9" style="background-color:white;width:20px;height:20px"></div></center></td>
+    <tr>
+</table>
+
+
+<!--<input type="button" value="Agregar" id="agregar"/>-->
+<div class="line">  
+          <div class="s-12 m-12 l-3 center">
+<input type="button" value="Limpiar Odontograma" id="limpiar" class="s-12 button border-radius background-primary text-size-20 text-white"/>       
+          </div>
+        </div>
+<!--
+<input type="radio" id="Decidua" name="tipo" value="1" checked />Permanente
+<input type="radio" id="Niños" name="tipo" value="2" />Decidua
+<input type="radio" id="Mixta" name="tipo" value="3" />Mixta
+-->
+
+  <div id="teste">
+  <tr>
+                                                    <td colspan="5" class="text-center text-info">
+                                                        <span>DERECHO ----------------------------------------------</span>
+                                                    </td>
+                                                    
+                                                    <td colspan="5" class="text-center text-info">
+                                                        <span>----------------------------------------------IZQUIERDO</span>
+                                                    </td>
+                                                </tr>
+
+<svg version="1.1" height="100%" width="100%" margin="auto" align ="center" border="1">
+
+                    <g transform="scale(2.1)" id="gmain">
+            
+                        <g id="P18"> 
+
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                              <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                              <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                        <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                        
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">18</text>
+                        </g>
+                        <g id="P17" transform="translate(25,0)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">17</text>
+                        </g>
+                        <g id="P16" transform="translate(50,0)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">16</text>
+                        </g>
+                        <g id="P15" transform="translate(75,0)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">15</text>
+                        </g>
+                        <g id="P14" transform="translate(100,0)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">14</text>
+                        </g>
+                        <g id="P13" transform="translate(125,0)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">13</text>
+                        </g>
+                        <g id="P12" transform="translate(150,0)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">12</text>
+                        </g>
+                        <g id="P11" transform="translate(175,0)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">11</text>
+                        </g>
+                        
+                        <!-- Izquierda segunda fila -->
+                
+                        <g id="P55" transform="translate(75,80)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">55</text>
+                        </g>
+                        <g id="P54" transform="translate(100,80)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">54</text>
+                        </g>
+                        <g id="P53" transform="translate(125,80)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">53</text>
+                        </g>
+                        <g id="P52" transform="translate(150,80)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">52</text>
+                        </g>
+                        <g id="P51" transform="translate(175,80)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">51</text>
+                        </g>
+                
+                        <!-- Izquierda tercer fila -->
+                
+                        <g id="P85" transform="translate(75,120)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">85</text>
+                        </g>
+                        <g id="P84" transform="translate(100,120)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">84</text>
+                        </g>
+                        <g id="P83" transform="translate(125,120)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">83</text>
+                        </g>
+                        <g id="P82" transform="translate(150,120)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">82</text>
+                        </g>
+                        <g id="P81" transform="translate(175,120)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">81</text>
+                        </g>
+                
+                        <!-- Izquierda cuarta fila -->
+                
+                        <g id="P48" transform="translate(0,40)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">48</text>
+                        </g>
+                        <g id="P47" transform="translate(25,40)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">47</text>
+                        </g>
+                        <g id="P46" transform="translate(50,40)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">46</text>
+                        </g>
+                        <g id="P45" transform="translate(75,40)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">45</text>
+                        </g>
+                        <g id="P44" transform="translate(100,40)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">44</text>
+                        </g>
+                        <g id="P43" transform="translate(125,40)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">43</text>
+                        </g>
+                        <g id="P42" transform="translate(150,40)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">42</text>
+                        </g>
+                        <g id="P41" transform="translate(175,40)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">41</text>
+                        </g>
+                        
+                        <!-- Derecha primer fila -->
+                        
+                        <g id="P21" transform="translate(210,0)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">21</text>
+                        </g>
+                        <g id="P22" transform="translate(235,0)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">22</text>
+                        </g>
+                        <g id="P23" transform="translate(260,0)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">23</text>
+                        </g>
+                        <g id="P24" transform="translate(285,0)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">24</text>
+                        </g>
+                        <g id="P25" transform="translate(310,0)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">25</text>
+                        </g>
+                        <g id="P26" transform="translate(335,0)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">26</text>
+                        </g>
+                        <g id="P27" transform="translate(360,0)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">27</text>
+                        </g>
+                        <g id="P28" transform="translate(385,0)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">28</text>
+                        </g>
+                        
+                        <!-- Derecha segunda fila -->
+                        
+                        <g id="P61" transform="translate(210,80)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">61</text>
+                        </g>
+                        <g id="P62" transform="translate(235,80)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">62</text>
+                        </g>
+                        <g id="P63" transform="translate(260,80)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">63</text>
+                        </g>
+                        <g id="P64" transform="translate(285,80)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">64</text>
+                        </g>
+                        <g id="P65" transform="translate(310,80)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">65</text>
+                        </g>
+                        
+                        <!-- Derecha tercer fila -->
+                        
+                        <g id="P71" transform="translate(210,120)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">71</text>
+                        </g>
+                        <g id="P72" transform="translate(235,120)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">72</text>
+                        </g>
+                        <g id="P73" transform="translate(260,120)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">73</text>
+                        </g>
+                        <g id="P74" transform="translate(285,120)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">74</text>
+                        </g>
+                        <g id="P75" transform="translate(310,120)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">75</text>
+                        </g>
+                        
+                        <!-- Derecha cuarta fila -->
+                        
+                        <g id="P31" transform="translate(210,40)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">31</text>
+                        </g>
+                        <g id="P32" transform="translate(235,40)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">32</text>
+                        </g>
+                        <g id="P33" transform="translate(260,40)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">33</text>
+                        </g>
+                        <g id="P34" transform="translate(285,40)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">34</text>
+                        </g>
+                        <g id="P35" transform="translate(310,40)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">35</text>
+                        </g>
+                        <g id="P36" transform="translate(335,40)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">36</text>
+                        </g>
+                        <g id="P37" transform="translate(360,40)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">37</text>
+                        </g>
+                        <g id="P38" transform="translate(385,40)">
+                            <polygon points="5,5    15,5    15,15   5,15" fill="white" stroke="navy" stroke-width="0.5" id="C" opacity="1"></polygon>
+                            <polygon points="0,0    20,0    15,5    5,5" fill="white" stroke="navy" stroke-width="0.5" id="T" opacity="1"></polygon>
+                            <polygon points="5,15   15,15   20,20   0,20" fill="white" stroke="navy" stroke-width="0.5" id="B" opacity="1"></polygon>
+                            <polygon points="15,5   20,0    20,20   15,15" fill="white" stroke="navy" stroke-width="0.5" id="R" opacity="1"></polygon>
+                            <polygon points="0,0    5,5     5,15    0,20" fill="white" stroke="navy" stroke-width="0.5" id="L" opacity="1"></polygon>
+                            <circle cx="9.9" cy="9.9" r="6" estado="8" value="8" class="corona"/>
+                            <polygon points="0,5 5,0 20,20 20,20" estado="4" value="6" class="ausente" />
+                        <polygon points="20,5 0,20 0,20 15,0" estado="4" value="7" class="ausente" />
+                         <circle cx="9.9" cy="9.9" r="6" estado="8" value="6" class="coronaR"/>
+                            <text x="6" y="30" stroke="navy" fill="navy" stroke-width="0.1" style="font-size: 6pt;font-weight:normal">38</text>
+                        </g>
+                    </g>
+                </svg>
+                    
+       </div>
+
+<!-- cerrando todo. -->
+
+  <table border="5px">
+    <tr>
+        <td><center><b>Diente</b></center></td>
+        <td><center><b>Cara</b></center></td>
+        <td><center><b>Código</b></center></td>ç
+        <td><center><b>Fecha</b></center></td>
+        <td><center><b>Arancel</b></center></td>
+        <td><center><b>Conf. Paciente</b></center></td>
+        <td><center><b>Cantidad</b></center></td>
+        <td><center><b>Código</b></center></td>
+    </tr>
+    <tr>
+        <td><center></center></td>
+        <td><center></center></td>
+        <td><center></center></td>
+        <td><center><input type="date" class="form-control" id="fecnac" name="fecnac"></center></td>
+        <td><center></center></td>
+        <td><center></center></td>
+        <td><center></center></td>
+        <td><center></center></td>
+    </tr>
+    <tr>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td><center><input type="date" class="form-control" id="fecnac" name="fecnac"></center></td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+    </tr>
+      <tr>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td><center><input type="date" class="form-control" id="fecnac" name="fecnac"></center></td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+    </tr>
+      <tr>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td><center><input type="date" class="form-control" id="fecnac" name="fecnac"></center></td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+    </tr>
+      <tr>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td><center><input type="date" class="form-control" id="fecnac" name="fecnac"></center></td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+    </tr>
+   
+</table>  
+
+
+<hr>    
+   
+   </div> 
+    <table id="datos-personales" valign="middle"><tbody>
+      <tr><td></td><td><textarea type="text" id="registro" name="" value="" style="width:760px;height:100px;max-width:1000px;"></textarea></td><td style="text-align:center">
+        <a href="javascript:window.print()"><img src="./Periodontograma_files/boton_imprimir.jpg" border="0" = a="">
+          <br></a><a href="http://sepa.es/odontograma/ayuda_impresion_odontograma.pdf" target="_blank">ENVIAR</a></td></tr></tbody></table>
+
+</div>
+
+<hr> 
+          </div>           
+        </section>
+      </article>
+    </main>
+    
+
+
+    <!-------------------------------------------------------------------- FOOTER -->
+    <footer>
+      <!--------------------------------- Social -->
+      <div class="background-primary padding text-center">
+        <a href="https://www.facebook.com/"><i class="icon-facebook_circle text-size-25 text-dark"></i></a> 
+<!--        <a href="/"><i class="icon-twitter_circle text-size-25 text-dark"></i></a>
+        <a href="/"><i class="icon-google_plus_circle text-size-25 text-dark"></i></a>-->
+        <a href="https://www.instagram.com/"><i class="icon-instagram_circle text-size-25 text-dark"></i></a> 
+<!--        <a href="/"><i class="icon-linked_in_circle text-size-25 text-dark"></i></a>           -->                                                            
+      </div>
+      <!--------------------------------- Main Footer -->
+      <section class="section background-dark">
+        <div class="line"> 
+          <div class="margin2x">
+            <div class="s-12 m-6 l-3 xl-5">
+               <h4 class="text-primary text-strong">Nuestro Objetivo</h4>
+               <p>
+                 <b class="text-size-20">Servicio enfocado en desarrollar soluciones y proyectos para sus clientes,</b> precios y condiciones comerciales a medida. <b class="text-size-20"></b>
+               </p>
+              </div>
+<!--
+              <div class="s-12 m-6 l-3 xl-2">
+               <h4 class="text-white text-strong margin-m-top-30">Useful Links</h4>
+               <a class="text-primary-hover" href="page.html">FAQ</a><br>      
+               <a class="text-primary-hover" href="contact.html">Contact Us</a><br>
+               <a class="text-primary-hover" href="blog.html">Blog</a>
+            </div>
+            
+            <div class="s-12 m-6 l-3 xl-2">
+               <h4 class="text-white text-strong margin-m-top-30">Term of Use</h4>
+               <a class="text-primary-hover" href="page.html">Terms and Conditions</a><br>
+               <a class="text-primary-hover" href="page.html">Refund Policy</a><br>
+               <a class="text-primary-hover" href="page.html">Disclaimer</a>
+            </div>
+            -->
+            <div class="s-12 m-6 l-3 xl-3">
+               <h4 class="text-primary text-strong margin-m-top-30">Contacto</h4>
+                 <a href="https://wa.me/5516991400423?text=Sou%20um%20contato%20que%20veio%20via%20site" target="_blank"><i class="icon-sli-screen-smartphone text-primary"></i> +54 9 (362) 460-4929</a><br>
+                <p><i class="icon-sli-screen-smartphone text-primary"></i> +54 9 (362) 452-2550</p><br>
+                <p><i class="icon-sli-screen-smartphone text-primary"></i> +54 9 (362) 495-9000</p>
+                <a class="text-primary-hover" href="mailto:desarrollos.mdp@gmail.com"><i class="icon-sli-mouse text-primary"></i> Dentaluz.MDP-Desarrollos</a><br>
+            </div>
+          </div>  
+        </div>    
+      </section>
+      <div class="background-dark">
+         <div class="line">
+            <hr class="break margin-top-bottom-0" style="border-color: #777;">
+         </div>
+      </div>
+      <!--------------------------------- Bottom Footer -->
+      <section class="padding-2x background-dark full-width">
+        <div class="line">
+          <div class="s-12 l-6">
+            <p class="text-size-12">Copyright 2022, Marcos DR  Dario ME Pablo EG - MDP-Desarrollos</p>
+            <p class="text-size-12">...</p>
+          </div>
+          <div class="s-12 l-6">
+            <a class="right text-size-12 text-primary-hover" href="https://www.youtube.com/embed/kwF-6-Fi29Y" title="Responsee - lightweight responsive framework">Design and coding<br> by MDP-Desarrollos</a>
+          </div>
+        </div>  
+      </section>
+    </footer>
+    <script type="text/javascript" src="js/responsee.js"></script>
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/template-scripts.js"></script> 
+
+    <!--Jquery/Javascrip-->
+    <script type="text/javascript" src="scripts/jquery-odontograma.js"></script>
+
+    <!-- Angular Directivas-->
+    <script type="text/javascript" src="scripts/controller.js"></script>
+  </body>
+</html>
